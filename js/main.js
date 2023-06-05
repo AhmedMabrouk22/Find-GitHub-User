@@ -47,7 +47,7 @@ closeBtn.addEventListener("click",() => {
 })
 
 userInPhone.addEventListener("click",() => {
-    if (!userSectio.classList.contains("active") && landingSection.classList.contains("header-mode")) {
+    if (!userSectio.classList.contains("active")) {
         userSectio.classList.add("active");
         repoSection.style.display = "none";
     }

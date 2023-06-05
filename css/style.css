@@ -485,12 +485,13 @@ a {
 
 @media (max-width: 600px) {
     .content aside {
+        display: block;
         position: absolute;
         width: 100%;
         z-index: 100;
         top: 0;
         left: 0;
-        transform: translateX(-500px);
+        transform: translateX(-700px);
         transition: all 0.3s;
     }
 
