@@ -223,7 +223,7 @@ function getRepoDis(data) {
 
         return `<div class="topic">
                     <ul>
-                        ${getElm(data)};
+                        ${getElm(data)}
                     </ul>
                 </div>`
     }
