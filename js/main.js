@@ -55,7 +55,7 @@ userInPhone.addEventListener("click",() => {
 
 window.addEventListener('resize', () =>  {
     let x = window.matchMedia("(max-width: 600px)");
-    if (x.matches) {
+    if (x.matches && landingSection.classList.contains("header-mode")) {
         userInPhone.style.display = "block";
     } else {
         userInPhone.style.display = "none";
