@@ -429,6 +429,7 @@ a {
 .content main .data .repo .dis .topic ul {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .content main .data .repo .dis .topic ul li {
