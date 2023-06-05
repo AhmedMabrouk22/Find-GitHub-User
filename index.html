@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find GitHub User</title>
+    <!-- Font Awesome css file -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- normalize css file -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Style css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mode">
+        <a>Light <i class="fa-solid fa-sun"></i></a>
+    </div>
+
+    <!-- Start Landing -->
+
+    <div class="landing">
+        <div class="container">
+            <div class="data">
+                <i class="fa-solid fa-bars mnue"></i>
+                <h1 class="title">Find <span>GitHub</span> User</h1>
+                <form class="search">
+                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" placeholder="search Github username.">
+                    <input type="submit" value="search">
+                </form>
+                <p class="error">Plese Enter valid username</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Landing -->
+
+    <!-- Start Content -->
+
+    <div class="content">
+        <div class="container">
+            <aside>
+                <i class="fa-solid fa-xmark"></i>
+                <div class="head">
+                    <div class="img">
+                        <img id="avt" src="">
+                    </div>
+                    <div class="info">
+                        <h2 class="name"></h2>
+                        <a class="username" href="" target="_blank"></a>
+                        <span class="join-date">Joind <span class="date"></span></span>
+                    </div>
+                </div>
+
+                <p class="bio"></p>
+
+                <div class="statistics">
+                    <div class="box">
+                        <h3>Repos</h3>
+                        <span class="repo-nums"></span>
+                    </div>
+                    <div class="box">
+                        <h3>Followers</h3>
+                        <span class="followers-nums"></span>
+                    </div>
+                    <div class="box">
+                        <h3>Following</h3>
+                        <span class="following-nums"></span>
+                    </div>
+                </div>
+
+                <div class="links">
+                    <ul>
+                        <li class="camp"><i class="fa-solid fa-building"></i> <span></span></li>
+                        <li class="location"><i class="fa-solid fa-location-dot"></i> <span></span></li>
+                        <li class="website"><i class="fa-solid fa-link"></i> <span></span></li>
+                        <li class="twitter"><i class="fa-brands fa-twitter"></i> <span></span></li>
+                    </ul>
+                </div>
+
+            </aside>
+
+            <main>
+                <div class="data">
+                </div>
+                <div class="page">
+                    <ul>
+                        <li><button class="prv disabled" disabled>Previous</button></li>
+                        <li><button class="nxt disabled" disabled>Next</button></li>
+                    </ul>
+                </div>
+                
+            </main>
+
+        </div>
+    </div>
+
+    <!-- End Content -->
+
+    <script src="js/main.js"></script>
+</body>
+</html>
