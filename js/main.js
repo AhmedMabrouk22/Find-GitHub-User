@@ -98,7 +98,7 @@ function changeMode() {
 function search() {
 
     let val = searchInLanding.value.trim();
-    errorMes.textContent = "Plese Enter valid username";
+    errorMes.textContent = "Enter valid username";
     if (val === "") {
         contentDiv.style.display = "none";
         if (landingSection.classList.contains("header-mode")) {
