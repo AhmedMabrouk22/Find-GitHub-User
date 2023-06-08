@@ -215,8 +215,8 @@ a {
         width: 350px;
     }
 
-    .landing .data > i {
-        /* display: block; */
+    .landing.header-mode .data > i {
+        display: block;
         position: absolute;
         color: var(--btn-color);
         font-size: 25px;

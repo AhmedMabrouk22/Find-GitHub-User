@@ -53,14 +53,14 @@ userInPhone.addEventListener("click",() => {
     }
 })
 
-window.addEventListener('resize', () =>  {
-    let x = window.matchMedia("(max-width: 600px)");
-    if (x.matches && landingSection.classList.contains("header-mode")) {
-        userInPhone.style.display = "block";
-    } else {
-        userInPhone.style.display = "none";
-    }
-}, true);
+// window.addEventListener('resize', () =>  {
+//     let x = window.matchMedia("(max-width: 600px)");
+//     if (x.matches && landingSection.classList.contains("header-mode")) {
+//         userInPhone.style.display = "block";
+//     } else {
+//         userInPhone.style.display = "none";
+//     }
+// }, true);
 
 prvBtn.addEventListener("click",prv);
 nxtBtn.addEventListener("click",nxt);
@@ -103,7 +103,7 @@ function search() {
         contentDiv.style.display = "none";
         if (landingSection.classList.contains("header-mode")) {
             landingSection.classList.remove("header-mode");
-            userInPhone.style.display = "none";
+            // userInPhone.style.display = "none";
         }
         showInvalidMes();
     } else {
